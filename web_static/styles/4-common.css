@@ -8,6 +8,9 @@ body {
     color: #484848;
     font-size: 14px;
     font-family: Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
 }
 
 .container {
@@ -15,4 +18,5 @@ body {
     margin: 30px auto;
     margin-top: 30px;
     margin-bottom: 30px;
+    flex: 1;
 }
